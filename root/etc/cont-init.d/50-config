@@ -1,0 +1,13 @@
+#!/usr/bin/with-contenv bash
+
+# persist env variables
+if [ ! -f "/config/config.php" ]; then
+	cp /app/grocy/config-dist.php /config/config.php
+fi
+
+rm /app/grocy/data/config.php
+ln -s /config/config.php /app/grocy/data/config.php
+
+chown -R abc:abc \
+	/app/grocy \
+	/config
