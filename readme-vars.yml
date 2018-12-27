@@ -1,0 +1,42 @@
+---
+
+# project information
+project_name: grocy
+project_url: "https://github.com/grocy/grocy"
+project_logo: "https://grocy.info/img/grocy_logo.svg"
+project_blurb: |
+  [{{ project_name|capitalize }}]({{ project_url }}) is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity.
+
+  Keep track of your purchaes, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool
+
+  For more information on grocy visit their website and check it out: https://grocy.info
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
+
+# container parameters
+param_container_name: "{{ project_name }}"
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "<path to data>", desc: "this will store any uploaded data on the docker host" }
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "<your timezone, eg Europe/London>", desc: "for specifying your timezone" }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "9283", internal_port: "80", port_desc: "will map the container's port 80 to port 9283 on the host" }
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  Grocy is simple to get running. Configure the container with the above instructions, start it, and you can then access it
+  by visiting http://your.ip:9283 - once the page loads, you can log in with the default username and password of admin / admin
+
+
+# changelog
+changelogs:
+  - { date: "27.12.18:", desc: "Initial Release." }

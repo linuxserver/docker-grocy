@@ -1,0 +1,28 @@
+---
+
+# jenkins variables
+project_name: docker-grocy
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'grocy'
+  - EXT_REPO = 'grocy'
+  - BUILD_VERSION_ARG = 'GROCY_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-grocy'
+  - CONTAINER_NAME = 'grocy'
+  - DOCKERHUB_IMAGE = 'linuxserver/grocy'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/grocy'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/grocy'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='80'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
