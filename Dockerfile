@@ -10,14 +10,14 @@ LABEL maintainer="alex-phillips, homerr"
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
-    git \
-    composer \
-    yarn && \
+	git \
+	composer \
+	yarn && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache \
-    curl \
+	curl \
 	php7 \
-    php7-pdo \
+	php7-pdo \
 	php7-pdo_sqlite \
 	php7-tokenizer && \
  echo "**** install grocy ****" && \
@@ -27,12 +27,12 @@ RUN \
 	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
  fi && \
  curl -o \
- /tmp/grocy.tar.gz -L \
+	/tmp/grocy.tar.gz -L \
 	"https://github.com/grocy/grocy/archive/${GROCY_RELEASE}.tar.gz" && \
  tar xf \
- /tmp/grocy.tar.gz -C \
+	/tmp/grocy.tar.gz -C \
 	/app/grocy/ --strip-components=1 && \
-cp -R /app/grocy/data/plugins \
+ cp -R /app/grocy/data/plugins \
 	/defaults/plugins && \
  echo "**** install composer packages ****" && \
  composer install -d /app/grocy --no-dev && \
