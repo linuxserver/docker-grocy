@@ -8,8 +8,9 @@ mkdir -p \
 [[ ! -f "/config/data/config.php" ]] && \
 	cp /app/grocy/config-dist.php /config/data/config.php
 
+# check for plugins existence, copy if required
 [[ ! -f "/config/data/plugins/DemoBarcodeLookupPlugin.php" ]] && \
-	cp -R /defaults/plugins /config/data
+	cp -R /defaults/plugins/ /config/data
 
 # create symlinks
 symlinks=( \
