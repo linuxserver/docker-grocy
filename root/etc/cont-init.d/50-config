@@ -1,29 +1,21 @@
 #!/usr/bin/with-contenv bash
 
-# create directory structure
-mkdir -p \
-	/config/data/{plugins,viewcache}
+# create symlinks
+i=/app/grocy/data
+[[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
+        rm -Rf "$i" && \
+        ln -s /config/"$(basename "$i")" "$i"
+[[ -e "$i" && ! -L "$i" ]] && \
+	mv "$i" /config/"$(basename "$i")" && \
+	ln -s /config/"$(basename "$i")" "$i"
 
 # check for config file and copy default if needed
 [[ ! -f "/config/data/config.php" ]] && \
-	cp /app/grocy/config-dist.php /config/data/config.php
+    cp /app/grocy/config-dist.php /config/data/config.php
 
 [[ ! -f "/config/data/plugins/DemoBarcodeLookupPlugin.php" ]] && \
-	cp -R /defaults/plugins /config/data
-
-# create symlinks
-symlinks=( \
-/app/grocy/data/plugins \
-/app/grocy/data/viewcache \
-/app/grocy/data 
-)
-
-for i in "${symlinks[@]}"
-do
-[[ -e "$i" && ! -L "$i" ]] && rm -rf "$i"
-[[ ! -L "$i" ]] && ln -s /config/"$(basename "$i")" "$i"
-done
+    cp -R /defaults/plugins /config/data
 
 chown -R abc:abc \
-	/app/grocy \
-	/config
+    /app/grocy \
+    /config
