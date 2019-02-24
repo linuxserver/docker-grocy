@@ -159,4 +159,5 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **22.02.19:** - Rebasing to alpine 3.9.
 * **27.12.18:** - Initial Release.
