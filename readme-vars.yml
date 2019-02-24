@@ -39,4 +39,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }
   - { date: "27.12.18:", desc: "Initial Release." }
