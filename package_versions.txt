@@ -21,7 +21,7 @@ libedit-20181209.3.1-r0
 libmagic-5.35-r0
 libressl2.7-libcrypto-2.7.5-r0
 libressl2.7-libssl-2.7.5-r0
-libssh2-1.8.1-r0
+libssh2-1.8.2-r0
 libssl1.1-1.1.1b-r1
 libtls-standalone-2.7.4-r6
 libuuid-2.33-r0
