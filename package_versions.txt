@@ -56,7 +56,7 @@ php7-xmlwriter-7.2.18-r0
 popt-1.16-r7
 readline-7.0.003-r1
 scanelf-1.2.3-r0
-shadow-4.5-r0
+shadow-4.5-r1
 sqlite-libs-3.26.0-r3
 ssl_client-1.29.3-r10
 tzdata-2019a-r0
