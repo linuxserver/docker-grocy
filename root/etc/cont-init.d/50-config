@@ -1,5 +1,8 @@
 #!/usr/bin/with-contenv bash
 
+# create missing cache directory
+mkdir -p /app/grocy/data/viewcache || :
+
 # create symlinks
 i=/app/grocy/data
 [[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
