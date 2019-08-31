@@ -46,11 +46,11 @@ php7-fpm-7.3.8-r0
 php7-json-7.3.8-r0
 php7-mbstring-7.3.8-r0
 php7-openssl-7.3.8-r0
-php7-pdo-7.3.8-r0
-php7-pdo_sqlite-7.3.8-r0
+php7-pdo-7.3.9-r0
+php7-pdo_sqlite-7.3.9-r0
 php7-session-7.3.8-r0
 php7-simplexml-7.3.8-r0
-php7-tokenizer-7.3.8-r0
+php7-tokenizer-7.3.9-r0
 php7-xml-7.3.8-r0
 php7-xmlwriter-7.3.8-r0
 popt-1.16-r7
