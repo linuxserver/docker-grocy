@@ -27,8 +27,8 @@ Find us at:
 [![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-grocy.svg?style=flat-square&color=E68523)](https://github.com/linuxserver/docker-grocy/releases)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/linuxserver/grocy.svg?style=flat-square&color=E68523)](https://microbadger.com/images/linuxserver/grocy "Get your own version badge on microbadger.com")
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/linuxserver/grocy.svg?style=flat-square&color=E68523)](https://microbadger.com/images/linuxserver/grocy "Get your own version badge on microbadger.com")
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/grocy.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/grocy/grocy)
-[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/grocy.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/grocy/grocy)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/grocy.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/grocy)
+[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/grocy.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/grocy)
 [![Build Status](https://ci.linuxserver.io/view/all/job/Docker-Pipeline-Builders/job/docker-grocy/job/master/badge/icon?style=flat-square)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-grocy/job/master/)
 [![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/grocy/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/grocy/latest/index.html)
 
