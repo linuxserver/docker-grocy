@@ -39,6 +39,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "22.09.19:", desc: "Add 'gd' PHP extension." }
   - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }
