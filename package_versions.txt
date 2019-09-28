@@ -11,7 +11,7 @@ ca-certificates-20190108-r0
 ca-certificates-cacert-20190108-r0
 coreutils-8.31-r0
 curl-7.66.0-r0
-expat-2.2.7-r1
+expat-2.2.8-r0
 freetype-2.10.0-r0
 git-2.22.0-r0
 libacl-2.2.52-r6
