@@ -6,7 +6,7 @@ apr-1.6.5-r0
 apr-util-1.6.1-r6
 argon2-libs-20171227-r2
 bash-5.0.0-r0
-busybox-1.30.1-r2
+busybox-1.30.1-r3
 ca-certificates-20190108-r0
 ca-certificates-cacert-20190108-r0
 coreutils-8.31-r0
@@ -24,7 +24,7 @@ libcurl-7.66.0-r0
 libedit-20190324.3.1-r0
 libice-1.0.9-r3
 libjpeg-turbo-2.0.2-r0
-libmagic-5.37-r0
+libmagic-5.37-r1
 libpng-1.6.37-r1
 libressl2.7-libcrypto-2.7.5-r0
 libressl2.7-libssl-2.7.5-r0
@@ -74,7 +74,7 @@ readline-8.0.0-r0
 scanelf-1.2.3-r0
 shadow-4.6-r2
 sqlite-libs-3.28.0-r1
-ssl_client-1.30.1-r2
+ssl_client-1.30.1-r3
 tzdata-2019c-r0
 xz-5.2.4-r0
 xz-libs-5.2.4-r0
