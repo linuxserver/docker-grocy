@@ -23,7 +23,7 @@ libcrypto1.1-1.1.1d-r0
 libcurl-7.66.0-r0
 libedit-20190324.3.1-r0
 libice-1.0.9-r3
-libjpeg-turbo-2.0.2-r0
+libjpeg-turbo-2.0.3-r0
 libmagic-5.37-r1
 libpng-1.6.37-r1
 libressl2.7-libcrypto-2.7.5-r0
