@@ -23,9 +23,11 @@ libcrypto1.1-1.1.1g-r0
 libcurl-7.67.0-r0
 libedit-20191211.3.1-r0
 libice-1.0.10-r0
+libintl-0.20.1-r2
 libjpeg-turbo-2.0.4-r0
 libmagic-5.37-r1
 libpng-1.6.37-r1
+libproc-3.3.16-r0
 libressl3.0-libcrypto-3.0.2-r0
 libressl3.0-libssl-3.0.2-r0
 libsm-1.2.3-r0
@@ -69,6 +71,7 @@ php7-tokenizer-7.3.18-r0
 php7-xml-7.3.18-r0
 php7-xmlwriter-7.3.18-r0
 popt-1.16-r7
+procps-3.3.16-r0
 readline-8.0.1-r0
 scanelf-1.2.4-r0
 shadow-4.7-r1
