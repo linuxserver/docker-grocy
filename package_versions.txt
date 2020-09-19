@@ -11,7 +11,7 @@ busybox-1.31.1-r19
 ca-certificates-20191127-r4
 ca-certificates-bundle-20191127-r4
 coreutils-8.32-r0
-curl-7.69.1-r0
+curl-7.69.1-r1
 expat-2.2.9-r1
 freetype-2.10.2-r0
 git-2.26.2-r0
