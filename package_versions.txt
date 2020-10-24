@@ -13,7 +13,7 @@ ca-certificates-bundle-20191127-r4
 coreutils-8.32-r0
 curl-7.69.1-r1
 expat-2.2.9-r1
-freetype-2.10.2-r0
+freetype-2.10.4-r0
 git-2.26.2-r0
 libacl-2.2.53-r0
 libattr-2.4.48-r0
