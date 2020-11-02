@@ -5,9 +5,9 @@ project_name: grocy
 project_url: "https://github.com/grocy/grocy"
 project_logo: "https://grocy.info/img/grocy_logo.svg"
 project_blurb: |
-  [{{ project_name|capitalize }}]({{ project_url }}) is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity.
+  [{{ project_name|capitalize }}]({{ project_url }}) is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.
 
-  Keep track of your purchaes, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool
+  Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool
 
   For more information on grocy visit their website and check it out: https://grocy.info
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
