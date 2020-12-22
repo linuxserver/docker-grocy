@@ -39,7 +39,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "22.12.20:", desc: "Added php7-ctype requirement" }
+  - { date: "22.12.20:", desc: "Add 'ctype' PHP extension." }
   - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
   - { date: "22.09.19:", desc: "Add 'gd' PHP extension." }
