@@ -7,6 +7,7 @@ ARG GROCY_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="alex-phillips, homerr"
 
+##FIXME: Once PHP 7.4 is integrated, remove the sed statements for composer!
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
@@ -37,6 +38,8 @@ RUN \
  cp -R /app/grocy/data/plugins \
 	/defaults/plugins && \
  echo "**** install composer packages ****" && \
+ sed -i 's/[[:blank:]]*"php": ">=7.4",/"php": ">=7.3",/g' /app/grocy/composer.json && \
+ sed -i 's/[[:blank:]]*"php": ">=7.4"/"php": ">=7.3"/g' /app/grocy/composer.lock && \
  composer install -d /app/grocy --no-dev && \
  echo "**** install yarn packages ****" && \
  cd /app/grocy && \
