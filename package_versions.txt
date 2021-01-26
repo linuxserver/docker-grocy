@@ -12,6 +12,7 @@ ca-certificates-20191127-r4
 ca-certificates-bundle-20191127-r4
 coreutils-8.32-r0
 curl-7.69.1-r3
+db-5.3.28-r1
 expat-2.2.9-r1
 freetype-2.10.4-r0
 git-2.26.2-r0
@@ -26,11 +27,13 @@ libedit-20191231.3.1-r0
 libice-1.0.10-r0
 libintl-0.20.2-r0
 libjpeg-turbo-2.0.5-r0
+libldap-2.4.50-r1
 libmagic-5.38-r0
 libpng-1.6.37-r1
 libproc-3.3.16-r0
 libressl3.1-libcrypto-3.1.2-r0
 libressl3.1-libssl-3.1.2-r0
+libsasl-2.1.27-r6
 libsm-1.2.3-r0
 libssl1.1-1.1.1i-r0
 libtls-standalone-2.9.1-r1
@@ -63,6 +66,7 @@ php7-fileinfo-7.3.26-r0
 php7-fpm-7.3.26-r0
 php7-gd-7.3.26-r0
 php7-json-7.3.26-r0
+php7-ldap-7.3.26-r0
 php7-mbstring-7.3.26-r0
 php7-openssl-7.3.26-r0
 php7-pdo-7.3.26-r0
