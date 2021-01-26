@@ -19,6 +19,7 @@ RUN \
 	curl \
 	php7 \
 	php7-ctype \
+	php7-ldap \
 	php7-gd \
 	php7-pdo \
 	php7-pdo_sqlite \
