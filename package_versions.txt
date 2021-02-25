@@ -21,13 +21,13 @@ libattr-2.4.48-r0
 libbsd-0.10.0-r0
 libbz2-1.0.8-r1
 libc-utils-0.7.2-r3
-libcrypto1.1-1.1.1i-r0
+libcrypto1.1-1.1.1j-r0
 libcurl-7.74.0-r0
 libedit-20191231.3.1-r1
 libice-1.0.10-r0
 libintl-0.20.2-r2
 libjpeg-turbo-2.0.6-r0
-libldap-2.4.57-r0
+libldap-2.4.57-r1
 libmagic-5.39-r0
 libpng-1.6.37-r1
 libproc-3.3.16-r0
@@ -35,7 +35,7 @@ libressl3.1-libcrypto-3.1.5-r0
 libressl3.1-libssl-3.1.5-r0
 libsasl-2.1.27-r10
 libsm-1.2.3-r0
-libssl1.1-1.1.1i-r0
+libssl1.1-1.1.1j-r0
 libtls-standalone-2.9.1-r1
 libuuid-2.36.1-r1
 libwebp-1.1.0-r0
