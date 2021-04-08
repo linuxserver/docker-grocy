@@ -32,7 +32,7 @@ pipeline {
     CI_WEB='true'
     CI_PORT='80'
     CI_SSL='false'
-    CI_DELAY='120'
+    CI_DELAY='360'
     CI_DOCKERENV='TZ=US/Europe'
     CI_AUTH='user:password'
     CI_WEBPATH=''
