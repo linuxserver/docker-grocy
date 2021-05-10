@@ -43,6 +43,7 @@ RUN \
   cd /app/grocy && \
   yarn --production && \
   yarn cache clean && \
+  mv /app/grocy/public/node_modules /defaults/node_modules && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
