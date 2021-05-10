@@ -22,10 +22,10 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "<path to data>", desc: "this will store any uploaded data on the docker host" }
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "this will store any uploaded data on the docker host" }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "<your timezone, eg Europe/London>", desc: "for specifying your timezone" }
+  - { env_var: "TZ", env_value: "Europe/London", desc: "for specifying your timezone" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "9283", internal_port: "80", port_desc: "will map the container's port 80 to port 9283 on the host" }
@@ -39,7 +39,8 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "08.04.21:", desc: "Update docs to reflect jenkins builder changes" }
+  - { date: "10.05.21:", desc: "Reduce image size." }
+  - { date: "08.04.21:", desc: "Update docs to reflect jenkins builder changes." }
   - { date: "17.02.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "26.01.21:", desc: "Add 'ldap' PHP extension." }
   - { date: "22.12.20:", desc: "Add 'ctype' PHP extension." }

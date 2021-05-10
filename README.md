@@ -84,9 +84,9 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=<your timezone, eg Europe/London>
+      - TZ=Europe/London
     volumes:
-      - <path to data>:/config
+      - /path/to/data:/config
     ports:
       - 9283:80
     restart: unless-stopped
@@ -99,9 +99,9 @@ docker run -d \
   --name=grocy \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=<your timezone, eg Europe/London> \
+  -e TZ=Europe/London \
   -p 9283:80 \
-  -v <path to data>:/config \
+  -v /path/to/data:/config \
   --restart unless-stopped \
   ghcr.io/linuxserver/grocy
 ```
@@ -115,7 +115,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 80` | will map the container's port 80 to port 9283 on the host |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=<your timezone, eg Europe/London>` | for specifying your timezone |
+| `-e TZ=Europe/London` | for specifying your timezone |
 | `-v /config` | this will store any uploaded data on the docker host |
 
 ## Environment variables from files (Docker secrets)
@@ -227,7 +227,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **08.04.21:** - Update docs to reflect jenkins builder changes
+* **10.05.21:** - Reduce image size.
+* **08.04.21:** - Update docs to reflect jenkins builder changes.
 * **17.02.21:** - Rebasing to alpine 3.13.
 * **26.01.21:** - Add 'ldap' PHP extension.
 * **22.12.20:** - Add 'ctype' PHP extension.

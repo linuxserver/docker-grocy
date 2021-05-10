@@ -41,7 +41,8 @@ RUN \
   composer install -d /app/grocy --no-dev && \
   echo "**** install yarn packages ****" && \
   cd /app/grocy && \
-  yarn && \
+  yarn --production && \
+  yarn cache clean && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
@@ -53,5 +54,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 6781
+EXPOSE 80
 VOLUME /config
