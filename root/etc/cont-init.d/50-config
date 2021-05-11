@@ -12,6 +12,9 @@ i=/app/grocy/data
     mv "$i" /config/"$(basename "$i")" && \
     ln -s /config/"$(basename "$i")" "$i"
 
+[[ -d /defaults/node_modules ]] && \
+    mv /defaults/node_modules /app/grocy/public/node_modules
+
 # check for config file and copy default if needed
 [[ ! -f "/config/data/config.php" ]] && \
     cp /app/grocy/config-dist.php /config/data/config.php
