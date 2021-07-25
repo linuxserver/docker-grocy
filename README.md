@@ -224,6 +224,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.07.21:** - Add 'int','json' and 'zlib' PHP extensions.
 * **10.05.21:** - Reduce image size.
 * **08.04.21:** - Update docs to reflect jenkins builder changes.
 * **17.02.21:** - Rebasing to alpine 3.13.
