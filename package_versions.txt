@@ -11,11 +11,12 @@ busybox-1.32.1-r6
 ca-certificates-20191127-r5
 ca-certificates-bundle-20191127-r5
 coreutils-8.32-r2
-curl-7.77.0-r1
+curl-7.78.0-r0
 expat-2.2.10-r1
 freetype-2.10.4-r1
 gdbm-1.19-r0
 git-2.30.2-r0
+icu-libs-67.1-r2
 libacl-2.2.53-r0
 libattr-2.4.48-r0
 libbsd-0.10.0-r0
@@ -24,6 +25,7 @@ libc-utils-0.7.2-r3
 libcrypto1.1-1.1.1k-r0
 libcurl-7.77.0-r1
 libedit-20191231.3.1-r1
+libgcc-10.2.1_pre1-r3
 libice-1.0.10-r0
 libintl-0.20.2-r2
 libjpeg-turbo-2.1.0-r0
@@ -36,6 +38,7 @@ libressl3.1-libssl-3.1.5-r0
 libsasl-2.1.27-r10
 libsm-1.2.3-r0
 libssl1.1-1.1.1k-r0
+libstdc++-10.2.1_pre1-r3
 libtls-standalone-2.9.1-r1
 libuuid-2.36.1-r1
 libwebp-1.1.0-r0
@@ -66,6 +69,7 @@ php7-ctype-7.4.21-r0
 php7-fileinfo-7.4.21-r0
 php7-fpm-7.4.21-r0
 php7-gd-7.4.21-r0
+php7-intl-7.4.21-r0
 php7-json-7.4.21-r0
 php7-ldap-7.4.21-r0
 php7-mbstring-7.4.21-r0
