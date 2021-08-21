@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.13
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14-php8
 
 # set version label
 ARG BUILD_DATE
@@ -7,26 +7,29 @@ ARG GROCY_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="alex-phillips, homerr"
 
-##FIXME: Once PHP8 is integrated, remove the sed statements for composer!
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
     git \
-    composer \
     yarn && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
     curl \
-    php7 \
-    php7-ctype \
-    php7-intl \
-    php7-ldap \
-    php7-gd \
-    php7-json \
-    php7-pdo \
-    php7-pdo_sqlite \
-    php7-tokenizer \
-    php7-zlib && \
+    php8-ctype \
+    php8-curl \
+    php8-gd \
+    php8-iconv \
+    php8-intl \
+    php8-json \
+    php8-ldap \
+    php8-pdo \
+    php8-pdo_sqlite \
+    php8-phar \
+    php8-tokenizer \
+    php8-zip && \
+  echo "**** install composer ****" && \
+  php8 -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
+  php8 composer-setup.php --install-dir=/tmp --filename=composer && \
   echo "**** install grocy ****" && \
   mkdir -p /app/grocy && \
   if [ -z ${GROCY_RELEASE+x} ]; then \
@@ -42,9 +45,7 @@ RUN \
   cp -R /app/grocy/data/plugins \
     /defaults/plugins && \
   echo "**** install composer packages ****" && \
- sed -i 's/[[:blank:]]*"php": ">=8.0",/"php": ">=7.4",/g' /app/grocy/composer.json && \
- sed -i 's/[[:blank:]]*"php": ">=8.0"/"php": ">=7.4"/g' /app/grocy/composer.lock && \
-  composer install -d /app/grocy --no-dev && \
+  php8 /tmp/composer install -d /app/grocy --no-dev && \
   echo "**** install yarn packages ****" && \
   cd /app/grocy && \
   yarn --production && \
