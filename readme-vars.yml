@@ -39,6 +39,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "22.08.21:", desc: "Rebase to Alpine 3.14 and PHP 8." }
   - { date: "25.07.21:", desc: "Add 'int','json' and 'zlib' PHP extensions." }
   - { date: "10.05.21:", desc: "Reduce image size." }
   - { date: "08.04.21:", desc: "Update docs to reflect jenkins builder changes." }
