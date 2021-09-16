@@ -11,7 +11,7 @@ busybox-1.33.1-r3
 ca-certificates-20191127-r5
 ca-certificates-bundle-20191127-r5
 coreutils-8.32-r2
-curl-7.78.0-r0
+curl-7.79.0-r0
 expat-2.4.1-r0
 freetype-2.10.4-r1
 gdbm-1.19-r0
@@ -23,7 +23,7 @@ libbsd-0.11.3-r0
 libbz2-1.0.8-r1
 libc-utils-0.7.2-r3
 libcrypto1.1-1.1.1l-r0
-libcurl-7.78.0-r0
+libcurl-7.79.0-r0
 libedit-20210216.3.1-r0
 libgcc-10.3.1_git20210424-r2
 libice-1.0.10-r0
