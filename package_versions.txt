@@ -1,6 +1,6 @@
 alpine-baselayout-3.2.0-r16
 alpine-keys-2.4-r0
-apache2-utils-2.4.53-r0
+apache2-utils-2.4.54-r0
 apk-tools-2.12.7-r0
 apr-1.7.0-r1
 apr-util-1.6.1-r7
@@ -64,7 +64,7 @@ nginx-1.20.2-r1
 oniguruma-6.9.7.1-r0
 openssl-1.1.1o-r0
 pcre-8.44-r0
-pcre2-10.36-r0
+pcre2-10.36-r1
 php8-8.0.13-r0
 php8-common-8.0.13-r0
 php8-ctype-8.0.13-r0
