@@ -22,7 +22,7 @@ libattr-2.5.1-r0
 libbsd-0.11.3-r0
 libbz2-1.0.8-r1
 libc-utils-0.7.2-r3
-libcrypto1.1-1.1.1o-r0
+libcrypto1.1-1.1.1p-r0
 libcurl-7.79.1-r2
 libedit-20210216.3.1-r0
 libgcc-10.3.1_git20210424-r2
@@ -39,7 +39,7 @@ libressl3.3-libssl-3.3.6-r0
 libretls-3.3.3p1-r3
 libsasl-2.1.28-r0
 libsm-1.2.3-r0
-libssl1.1-1.1.1o-r0
+libssl1.1-1.1.1p-r0
 libstdc++-10.3.1_git20210424-r2
 libuuid-2.37.4-r0
 libwebp-1.2.0-r2
@@ -62,7 +62,7 @@ ncurses-terminfo-base-6.2_p20210612-r0
 nghttp2-libs-1.43.0-r0
 nginx-1.20.2-r1
 oniguruma-6.9.7.1-r0
-openssl-1.1.1o-r0
+openssl-1.1.1q-r0
 pcre-8.44-r0
 pcre2-10.36-r1
 php8-8.0.13-r0
