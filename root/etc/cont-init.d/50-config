@@ -1,27 +1,32 @@
 #!/usr/bin/with-contenv bash
 
 # create missing cache directory
-mkdir -p /app/grocy/data/viewcache || :
+mkdir -p /app/www/data/viewcache || :
 
 # create symlinks
-i=/app/grocy/data
-[[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
-    rm -Rf "$i" && \
+i=/app/www/data
+if [[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]]; then
+    rm -Rf "$i"
     ln -s /config/"$(basename "$i")" "$i"
-[[ -e "$i" && ! -L "$i" ]] && \
-    mv "$i" /config/"$(basename "$i")" && \
+fi
+if [[ -e "$i" && ! -L "$i" ]]; then
+    mv "$i" /config/"$(basename "$i")"
     ln -s /config/"$(basename "$i")" "$i"
+fi
 
-[[ -d /defaults/node_modules ]] && \
-    mv /defaults/node_modules /app/grocy/public/node_modules
+if [[ -d /defaults/node_modules ]]; then
+    mv /defaults/node_modules /app/www/public/node_modules
+fi
 
 # check for config file and copy default if needed
-[[ ! -f "/config/data/config.php" ]] && \
-    cp /app/grocy/config-dist.php /config/data/config.php
+if [[ ! -f "/config/data/config.php" ]]; then
+    cp /app/www/config-dist.php /config/data/config.php
+fi
 
-[[ ! -f "/config/data/plugins/DemoBarcodeLookupPlugin.php" ]] && \
+if [[ ! -f "/config/data/plugins/DemoBarcodeLookupPlugin.php" ]]; then
     cp -R /defaults/plugins /config/data
+fi
 
 chown -R abc:abc \
-    /app/grocy \
+    /app/www \
     /config

@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm32v7-3.14-php8
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm32v7-3.15
 
 # set version label
 ARG BUILD_DATE
@@ -10,6 +10,7 @@ LABEL maintainer="alex-phillips, homerr"
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
+    composer \
     git \
     yarn && \
   echo "**** install runtime packages ****" && \
@@ -27,11 +28,8 @@ RUN \
     php8-phar \
     php8-tokenizer \
     php8-zip && \
-  echo "**** install composer ****" && \
-  php8 -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
-  php8 composer-setup.php --install-dir=/tmp --filename=composer && \
   echo "**** install grocy ****" && \
-  mkdir -p /app/grocy && \
+  mkdir -p /app/www && \
   if [ -z ${GROCY_RELEASE+x} ]; then \
     GROCY_RELEASE=$(curl -sX GET "https://api.github.com/repos/grocy/grocy/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
@@ -41,20 +39,21 @@ RUN \
     "https://github.com/grocy/grocy/archive/${GROCY_RELEASE}.tar.gz" && \
   tar xf \
     /tmp/grocy.tar.gz -C \
-    /app/grocy/ --strip-components=1 && \
-  cp -R /app/grocy/data/plugins \
+    /app/www/ --strip-components=1 && \
+  cp -R /app/www/data/plugins \
     /defaults/plugins && \
   echo "**** install composer packages ****" && \
-  php8 /tmp/composer install -d /app/grocy --no-dev && \
+  composer install -d /app/www --no-dev && \
   echo "**** install yarn packages ****" && \
-  cd /app/grocy && \
+  cd /app/www && \
   yarn --production && \
   yarn cache clean && \
-  mv /app/grocy/public/node_modules /defaults/node_modules && \
+  mv /app/www/public/node_modules /defaults/node_modules && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
   rm -rf \
+    /root/.composer \
     /root/.cache \
     /tmp/*
 
@@ -62,5 +61,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 80
+EXPOSE 80 443
 VOLUME /config
