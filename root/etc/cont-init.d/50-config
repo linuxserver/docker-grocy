@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # create missing cache directory
 mkdir -p /app/www/data/viewcache || :
