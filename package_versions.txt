@@ -1,6 +1,6 @@
 alpine-baselayout-3.2.0-r18
 alpine-keys-2.4-r1
-apache2-utils-2.4.54-r0
+apache2-utils-2.4.55-r0
 apk-tools-2.12.7-r3
 apr-1.7.0-r1
 apr-util-1.6.1-r11
@@ -15,7 +15,7 @@ curl-7.80.0-r5
 expat-2.5.0-r0
 freetype-2.11.1-r2
 gdbm-1.22-r0
-git-2.34.5-r0
+git-2.34.6-r0
 icu-libs-69.1-r1
 libacl-2.2.53-r0
 libattr-2.5.1-r1
