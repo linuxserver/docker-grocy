@@ -28,6 +28,7 @@ if [[ ! -f "/config/data/plugins/DemoBarcodeLookupPlugin.php" ]]; then
     cp -R /defaults/plugins /config/data
 fi
 
-chown -R abc:abc \
+# permissions
+lsiown -R abc:abc \
     /app/www \
     /config
