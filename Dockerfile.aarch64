@@ -22,7 +22,6 @@ RUN \
     php81-gd \
     php81-iconv \
     php81-intl \
-    php81-json \
     php81-ldap \
     php81-pdo \
     php81-pdo_sqlite \
