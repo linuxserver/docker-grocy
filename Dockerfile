@@ -1,4 +1,6 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.15
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.17
 
 # set version label
 ARG BUILD_DATE
@@ -15,19 +17,17 @@ RUN \
     yarn && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
-    curl \
-    php8-ctype \
-    php8-curl \
-    php8-gd \
-    php8-iconv \
-    php8-intl \
-    php8-json \
-    php8-ldap \
-    php8-pdo \
-    php8-pdo_sqlite \
-    php8-phar \
-    php8-tokenizer \
-    php8-zip && \
+    php81-ctype \
+    php81-curl \
+    php81-gd \
+    php81-iconv \
+    php81-intl \
+    php81-ldap \
+    php81-pdo \
+    php81-pdo_sqlite \
+    php81-phar \
+    php81-tokenizer \
+    php81-zip && \
   echo "**** install grocy ****" && \
   mkdir -p /app/www && \
   if [ -z ${GROCY_RELEASE+x} ]; then \
