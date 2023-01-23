@@ -47,7 +47,7 @@ libssl3-3.0.7-r2
 libstdc++-12.2.1_git20220924-r4
 libuuid-2.38.1-r1
 libwebp-1.2.4-r1
-libx11-1.8.3-r0
+libx11-1.8.3-r1
 libxau-1.0.10-r0
 libxcb-1.15-r0
 libxdmcp-1.1.4-r0
