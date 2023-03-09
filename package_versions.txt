@@ -11,7 +11,7 @@ alpine-keys                        2.4-r1                 apk
 alpine-release                     3.17.2-r0              apk           
 animate.css                        3.7.2                  npm           
 aom-libs                           3.5.0-r0               apk           
-apache2-utils                      2.4.55-r0              apk           
+apache2-utils                      2.4.56-r0              apk           
 apk-tools                          2.12.10-r1             apk           
 apr                                1.7.2-r0               apk           
 apr-util                           1.6.3-r0               apk           
@@ -89,7 +89,7 @@ getpass                            0.1.7                  npm
 gettext-translator                 2.1.0                  npm           
 gettext/gettext                    v4.8.7                 php-composer  
 gettext/languages                  2.10.0                 php-composer  
-git                                2.38.4-r0              apk           
+git                                2.38.4-r1              apk           
 gl-matrix                          3.4.3                  npm           
 gumlet/php-image-resize            2.0.3                  php-composer  
 guzzlehttp/guzzle                  7.5.0                  php-composer  
