@@ -136,7 +136,7 @@ libavif                            0.11.1-r0              apk
 libbsd                             0.11.7-r0              apk           
 libbz2                             1.0.8-r4               apk           
 libc-utils                         0.7.2-r3               apk           
-libcrypto3                         3.0.8-r0               apk           
+libcrypto3                         3.0.8-r1               apk           
 libcurl                            7.88.1-r1              apk           
 libdav1d                           1.0.0-r2               apk           
 libedit                            20221030.3.1-r0        apk           
@@ -151,7 +151,7 @@ libpng                             1.6.38-r0              apk
 libproc                            3.3.17-r2              apk           
 libsasl                            2.1.28-r3              apk           
 libsm                              1.2.3-r1               apk           
-libssl3                            3.0.8-r0               apk           
+libssl3                            3.0.8-r1               apk           
 libstdc++                          12.2.1_git20220924-r4  apk           
 libuuid                            2.38.1-r1              apk           
 libwebp                            1.2.4-r1               apk           
@@ -193,7 +193,7 @@ nosleep.js                         0.12.0                 npm
 oauth-sign                         0.9.0                  npm           
 omggif                             1.0.10                 npm           
 oniguruma                          6.9.8-r0               apk           
-openssl                            3.0.8-r1               apk           
+openssl                            3.0.8-r3               apk           
 parse-data-uri                     0.2.0                  npm           
 pcre                               8.45-r2                apk           
 pcre2                              10.42-r0               apk           
@@ -273,7 +273,7 @@ toastr                             2.1.4                  npm
 tough-cookie                       2.5.0                  npm           
 tunnel-agent                       0.6.0                  npm           
 tweetnacl                          0.14.5                 npm           
-tzdata                             2022f-r1               apk           
+tzdata                             2023b-r1               apk           
 uniq                               1.0.1                  npm           
 uri-js                             4.4.1                  npm           
 utmps-libs                         0.1.2.0-r1             apk           
