@@ -89,7 +89,7 @@ getpass                            0.1.7                  npm
 gettext-translator                 2.1.0                  npm           
 gettext/gettext                    v4.8.7                 php-composer  
 gettext/languages                  2.10.0                 php-composer  
-git                                2.38.4-r1              apk           
+git                                2.38.5-r0              apk           
 gl-matrix                          3.4.3                  npm           
 gumlet/php-image-resize            2.0.3                  php-composer  
 guzzlehttp/guzzle                  7.5.0                  php-composer  
@@ -136,7 +136,7 @@ libavif                            0.11.1-r0              apk
 libbsd                             0.11.7-r0              apk           
 libbz2                             1.0.8-r4               apk           
 libc-utils                         0.7.2-r3               apk           
-libcrypto3                         3.0.8-r3               apk           
+libcrypto3                         3.0.8-r4               apk           
 libcurl                            8.0.1-r0               apk           
 libdav1d                           1.0.0-r2               apk           
 libedit                            20221030.3.1-r0        apk           
@@ -151,7 +151,7 @@ libpng                             1.6.38-r0              apk
 libproc                            3.3.17-r2              apk           
 libsasl                            2.1.28-r3              apk           
 libsm                              1.2.3-r1               apk           
-libssl3                            3.0.8-r3               apk           
+libssl3                            3.0.8-r4               apk           
 libstdc++                          12.2.1_git20220924-r4  apk           
 libuuid                            2.38.1-r1              apk           
 libwebp                            1.2.4-r1               apk           
