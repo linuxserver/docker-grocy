@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm64v8-3.17
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm64v8-3.18
 
 # set version label
 ARG BUILD_DATE
@@ -12,22 +12,16 @@ LABEL maintainer="alex-phillips, homerr"
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
-    composer \
     git \
     yarn && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
-    php81-ctype \
-    php81-curl \
-    php81-gd \
-    php81-iconv \
-    php81-intl \
-    php81-ldap \
-    php81-pdo \
-    php81-pdo_sqlite \
-    php81-phar \
-    php81-tokenizer \
-    php81-zip && \
+    php82-gd \
+    php82-intl \
+    php82-ldap \
+    php82-pdo \
+    php82-pdo_sqlite \
+    php82-tokenizer && \
   echo "**** install grocy ****" && \
   mkdir -p /app/www && \
   if [ -z ${GROCY_RELEASE+x} ]; then \
@@ -53,9 +47,9 @@ RUN \
   apk del --purge \
     build-dependencies && \
   rm -rf \
-    /root/.composer \
-    /root/.cache \
-    /tmp/*
+    /tmp/* \
+    $HOME/.cache \
+    $HOME/.composer
 
 # copy local files
 COPY root/ /
