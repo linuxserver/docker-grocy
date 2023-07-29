@@ -15,10 +15,6 @@ if [[ -e "$i" && ! -L "$i" ]]; then
     ln -s /config/"$(basename "$i")" "$i"
 fi
 
-if [[ -d /defaults/node_modules ]]; then
-    mv /defaults/node_modules /app/www/public/node_modules
-fi
-
 # check for config file and copy default if needed
 if [[ ! -f "/config/data/config.php" ]]; then
     cp /app/www/config-dist.php /config/data/config.php
@@ -30,5 +26,4 @@ fi
 
 # permissions
 lsiown -R abc:abc \
-    /app/www \
     /config
