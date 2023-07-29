@@ -42,7 +42,6 @@ RUN \
   cd /app/www && \
   yarn --production && \
   yarn cache clean && \
-  mv /app/www/public/node_modules /defaults/node_modules && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
