@@ -12,17 +12,22 @@ LABEL maintainer="alex-phillips, homerr"
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
+    composer \
     git \
     yarn && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
-    composer \
+    php81-ctype \
+    php81-curl \
     php81-gd \
+    php81-iconv \
     php81-intl \
     php81-ldap \
     php81-pdo \
     php81-pdo_sqlite \
-    php81-tokenizer && \
+    php81-phar \
+    php81-tokenizer \
+    php81-zip && \
   echo "**** install grocy ****" && \
   mkdir -p /app/www && \
   if [ -z ${GROCY_RELEASE+x} ]; then \
