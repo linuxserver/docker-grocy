@@ -16,6 +16,7 @@ RUN \
     yarn && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
+    composer \
     php81-gd \
     php81-intl \
     php81-ldap \
