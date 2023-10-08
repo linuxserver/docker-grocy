@@ -10,7 +10,7 @@ ajv                                6.12.6                  npm
 alpine-baselayout                  3.4.3-r1                apk           
 alpine-baselayout-data             3.4.3-r1                apk           
 alpine-keys                        2.4-r1                  apk           
-alpine-release                     3.18.3-r0               apk           
+alpine-release                     3.18.4-r0               apk           
 animate.css                        3.7.2                   npm           
 aom-libs                           3.6.1-r0                apk           
 apache2-utils                      2.4.57-r3               apk           
