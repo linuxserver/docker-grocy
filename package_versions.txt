@@ -170,8 +170,8 @@ mime-types                         2.1.35                  npm
 moment                             2.29.4                  npm           
 moment-timezone                    0.5.43                  npm           
 morris/lessql                      dev-php82               php-composer  
-musl                               1.2.4-r1                apk           
-musl-utils                         1.2.4-r1                apk           
+musl                               1.2.4-r2                apk           
+musl-utils                         1.2.4-r2                apk           
 nano                               7.2-r1                  apk           
 ncurses-terminfo-base              6.4_p20230506-r0        apk           
 ndarray                            1.0.19                  npm           
