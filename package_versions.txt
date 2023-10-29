@@ -129,7 +129,7 @@ libavif                            0.11.1-r2               apk
 libbsd                             0.11.7-r1               apk           
 libbz2                             1.0.8-r5                apk           
 libc-utils                         0.7.2-r5                apk           
-libcrypto3                         3.1.3-r0                apk           
+libcrypto3                         3.1.4-r0                apk           
 libcurl                            8.4.0-r0                apk           
 libdav1d                           1.2.1-r0                apk           
 libedit                            20221030.3.1-r1         apk           
@@ -146,7 +146,7 @@ libpng                             1.6.39-r3               apk
 libproc2                           4.0.4-r0                apk           
 libsasl                            2.1.28-r4               apk           
 libsm                              1.2.4-r1                apk           
-libssl3                            3.1.3-r0                apk           
+libssl3                            3.1.4-r0                apk           
 libstdc++                          12.2.1_git20220924-r10  apk           
 libunistring                       1.1-r1                  apk           
 libuuid                            2.38.1-r8               apk           
@@ -187,7 +187,7 @@ nosleep.js                         0.12.0                  npm
 oauth-sign                         0.9.0                   npm           
 omggif                             1.0.10                  npm           
 oniguruma                          6.9.8-r1                apk           
-openssl                            3.1.3-r0                apk           
+openssl                            3.1.4-r0                apk           
 parse-data-uri                     0.2.0                   npm           
 pcre                               8.45-r3                 apk           
 pcre2                              10.42-r1                apk           
