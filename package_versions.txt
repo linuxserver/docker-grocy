@@ -31,8 +31,8 @@ bootstrap                          4.6.2                   npm
 bootstrap-select                   1.13.18                 npm           
 brick/math                         0.11.0                  php-composer  
 brotli-libs                        1.0.9-r14               apk           
-busybox                            1.36.1-r4               apk           
-busybox-binsh                      1.36.1-r4               apk           
+busybox                            1.36.1-r5               apk           
+busybox-binsh                      1.36.1-r5               apk           
 bwip-js                            3.4.5                   npm           
 ca-certificates                    20230506-r0             apk           
 ca-certificates-bundle             20230506-r0             apk           
@@ -129,7 +129,7 @@ libavif                            0.11.1-r2               apk
 libbsd                             0.11.7-r1               apk           
 libbz2                             1.0.8-r5                apk           
 libc-utils                         0.7.2-r5                apk           
-libcrypto3                         3.1.4-r0                apk           
+libcrypto3                         3.1.4-r1                apk           
 libcurl                            8.4.0-r0                apk           
 libdav1d                           1.2.1-r0                apk           
 libedit                            20221030.3.1-r1         apk           
@@ -146,7 +146,7 @@ libpng                             1.6.39-r3               apk
 libproc2                           4.0.4-r0                apk           
 libsasl                            2.1.28-r4               apk           
 libsm                              1.2.4-r1                apk           
-libssl3                            3.1.4-r0                apk           
+libssl3                            3.1.4-r1                apk           
 libstdc++                          12.2.1_git20220924-r10  apk           
 libunistring                       1.1-r1                  apk           
 libuuid                            2.38.1-r8               apk           
@@ -187,7 +187,7 @@ nosleep.js                         0.12.0                  npm
 oauth-sign                         0.9.0                   npm           
 omggif                             1.0.10                  npm           
 oniguruma                          6.9.8-r1                apk           
-openssl                            3.1.4-r0                apk           
+openssl                            3.1.4-r1                apk           
 parse-data-uri                     0.2.0                   npm           
 pcre                               8.45-r3                 apk           
 pcre2                              10.42-r1                apk           
@@ -248,7 +248,7 @@ slim/slim                          4.12.0                  php-composer
 sprintf-js                         1.1.2                   npm           
 sqlite-libs                        3.41.2-r2               apk           
 sshpk                              1.17.0                  npm           
-ssl_client                         1.36.1-r4               apk           
+ssl_client                         1.36.1-r5               apk           
 summernote                         0.8.20                  npm           
 swagger-ui-dist                    5.4.2                   npm           
 symfony/deprecation-contracts      v3.3.0                  php-composer  
