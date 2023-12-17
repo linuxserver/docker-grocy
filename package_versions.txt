@@ -50,7 +50,7 @@ combined-stream                    1.0.8                   npm
 core-js                            2.6.12                  npm           
 core-util-is                       1.0.2                   npm           
 coreutils                          9.3-r1                  apk           
-curl                               8.4.0-r0                apk           
+curl                               8.5.0-r0                apk           
 cwise-compiler                     1.1.3                   npm           
 dashdash                           1.14.1                  npm           
 data-uri-to-buffer                 0.0.3                   npm           
@@ -114,7 +114,7 @@ is-buffer                          1.1.6                   npm
 is-typedarray                      1.0.0                   npm           
 isstream                           0.1.2                   npm           
 jpeg-js                            0.4.4                   npm           
-jq                                 1.6-r3                  apk           
+jq                                 1.6-r4                  apk           
 jquery                             3.7.1                   npm           
 jquery-serializejson               2.9.0                   npm           
 jsbn                               0.1.1                   npm           
@@ -130,7 +130,7 @@ libbsd                             0.11.7-r1               apk
 libbz2                             1.0.8-r5                apk           
 libc-utils                         0.7.2-r5                apk           
 libcrypto3                         3.1.4-r1                apk           
-libcurl                            8.4.0-r0                apk           
+libcurl                            8.5.0-r0                apk           
 libdav1d                           1.2.1-r0                apk           
 libedit                            20221030.3.1-r1         apk           
 libexpat                           2.5.0-r1                apk           
