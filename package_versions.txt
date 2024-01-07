@@ -264,7 +264,7 @@ toastr                             2.1.4                   npm
 tough-cookie                       2.5.0                   npm           
 tunnel-agent                       0.6.0                   npm           
 tweetnacl                          0.14.5                  npm           
-tzdata                             2023c-r1                apk           
+tzdata                             2023d-r0                apk           
 uniq                               1.0.1                   npm           
 uri-js                             4.4.1                   npm           
 utmps-libs                         0.1.2.1-r1              apk           
