@@ -41,6 +41,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "29.03.24:", desc: "Add `clear_env = no` to `php-fpm` to pass on environment variables to workers threads" }
   - { date: "06.03.24:", desc: "Existing users should update: site-confs/default.conf - Cleanup default site conf." }
   - { date: "06.03.24:", desc: "Rebase to Alpine 3.19 with php 8.3."}
   - { date: "25.05.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
