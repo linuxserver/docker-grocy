@@ -22,6 +22,9 @@ RUN \
     php83-pdo \
     php83-pdo_sqlite \
     php83-tokenizer && \
+  echo "**** configure php-fpm to pass env vars ****" && \
+  sed -E -i 's/^;?clear_env ?=.*$/clear_env = no/g' /etc/php83/php-fpm.d/www.conf && \
+  grep -qxF 'clear_env = no' /etc/php83/php-fpm.d/www.conf || echo 'clear_env = no' >> /etc/php83/php-fpm.d/www.conf && \
   echo "**** install grocy ****" && \
   mkdir -p /app/www && \
   if [ -z ${GROCY_RELEASE+x} ]; then \
