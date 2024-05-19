@@ -96,7 +96,7 @@ getpass                            0.1.7                  npm
 gettext-translator                 3.0.1                  npm                           
 gettext/gettext                    v4.8.11                php-composer                  
 gettext/languages                  2.10.0                 php-composer                  
-git                                2.43.0-r0              apk                           
+git                                2.43.4-r0              apk                           
 gl-matrix                          3.4.3                  npm                           
 gumlet/php-image-resize            2.0.4                  php-composer                  
 guzzlehttp/guzzle                  7.8.1                  php-composer                  
