@@ -45,7 +45,7 @@ Keep track of your purchases, how much food you are wasting, what chores need do
 
 For more information on grocy visit their website and check it out: https://grocy.info
 
-[![grocy](https://grocy.info/img/grocy_logo.svg)](https://github.com/grocy/grocy)
+[![grocy](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-logo.png)](https://github.com/grocy/grocy)
 
 ## Supported Architectures
 
@@ -280,6 +280,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **30.06.24:** - Rebase to Alpine 3.20. Existing users should update their nginx confs to avoid http2 deprecation warnings.
 * **29.03.24:** - Add `clear_env = no` to `php-fpm` to pass on environment variables to workers threads
 * **06.03.24:** - Existing users should update: site-confs/default.conf - Cleanup default site conf.
 * **06.03.24:** - Rebase to Alpine 3.19 with php 8.3.

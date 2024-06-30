@@ -3,7 +3,7 @@
 # project information
 project_name: grocy
 project_url: "https://github.com/grocy/grocy"
-project_logo: "https://grocy.info/img/grocy_logo.svg"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-logo.png"
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.
 
@@ -22,9 +22,6 @@ param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
-param_usage_include_env: true
-param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "for specifying your timezone" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "9283", internal_port: "80", port_desc: "will map the container's port 80 to port 9283 on the host" }
@@ -41,6 +38,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.06.24:", desc: "Rebase to Alpine 3.20. Existing users should update their nginx confs to avoid http2 deprecation warnings."}
   - { date: "29.03.24:", desc: "Add `clear_env = no` to `php-fpm` to pass on environment variables to workers threads" }
   - { date: "06.03.24:", desc: "Existing users should update: site-confs/default.conf - Cleanup default site conf." }
   - { date: "06.03.24:", desc: "Rebase to Alpine 3.19 with php 8.3."}
