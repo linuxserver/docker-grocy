@@ -153,7 +153,7 @@ libjpeg-turbo                      3.0.3-r0               apk
 libldap                            2.6.7-r0               apk                           
 libmd                              1.1.0-r0               apk                           
 libncursesw                        6.4_p20240420-r1       apk                           
-libpng                             1.6.43-r0              apk                           
+libpng                             1.6.44-r0              apk                           
 libproc2                           4.0.4-r0               apk                           
 libpsl                             0.21.5-r1              apk                           
 libsasl                            2.1.28-r6              apk                           
