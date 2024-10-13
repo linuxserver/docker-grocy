@@ -99,6 +99,17 @@ gettext/languages                  2.10.0                 php-composer
 git                                2.45.2-r0              apk                           
 git-init-template                  2.45.2-r0              apk                           
 gl-matrix                          3.4.3                  npm                           
+gl-matrix/mat2                     UNKNOWN                npm                           
+gl-matrix/mat2d                    UNKNOWN                npm                           
+gl-matrix/mat3                     UNKNOWN                npm                           
+gl-matrix/mat4                     UNKNOWN                npm                           
+gl-matrix/quat                     UNKNOWN                npm                           
+gl-matrix/quat2                    UNKNOWN                npm                           
+gl-matrix/types.d.ts               UNKNOWN                npm                           
+gl-matrix/vec2                     UNKNOWN                npm                           
+gl-matrix/vec3                     UNKNOWN                npm                           
+gl-matrix/vec4                     UNKNOWN                npm                           
+grocy                              UNKNOWN                npm                           
 gumlet/php-image-resize            2.0.4                  php-composer                  
 guzzlehttp/guzzle                  7.8.1                  php-composer                  
 guzzlehttp/promises                2.0.2                  php-composer                  
