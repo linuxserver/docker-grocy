@@ -59,7 +59,7 @@ coreutils                          9.5-r2                 apk
 coreutils-env                      9.5-r2                 apk                           
 coreutils-fmt                      9.5-r2                 apk                           
 coreutils-sha512sum                9.5-r2                 apk                           
-curl                               8.11.1-r0              apk                           
+curl                               8.12.0-r0              apk                           
 cwise-compiler                     1.1.3                  npm                           
 dashdash                           1.14.1                 npm                           
 data-uri-to-buffer                 0.0.3                  npm                           
@@ -153,8 +153,8 @@ libattr                            2.5.2-r0               apk
 libavif                            1.0.4-r0               apk                           
 libbsd                             0.12.2-r0              apk                           
 libbz2                             1.0.8-r6               apk                           
-libcrypto3                         3.3.2-r1               apk                           
-libcurl                            8.11.1-r0              apk                           
+libcrypto3                         3.3.3-r0               apk                           
+libcurl                            8.12.0-r0              apk                           
 libdav1d                           1.4.2-r0               apk                           
 libedit                            20240517.3.1-r0        apk                           
 libexpat                           2.6.4-r0               apk                           
@@ -172,7 +172,7 @@ libpsl                             0.21.5-r1              apk
 libsasl                            2.1.28-r6              apk                           
 libsharpyuv                        1.3.2-r0               apk                           
 libsm                              1.2.4-r4               apk                           
-libssl3                            3.3.2-r1               apk                           
+libssl3                            3.3.3-r0               apk                           
 libstdc++                          13.2.1_git20240309-r0  apk                           
 libunistring                       1.2-r0                 apk                           
 libuuid                            2.40.1-r1              apk                           
@@ -213,7 +213,7 @@ nosleep.js                         0.12.0                 npm
 oauth-sign                         0.9.0                  npm                           
 omggif                             1.0.10                 npm                           
 oniguruma                          6.9.9-r0               apk                           
-openssl                            3.3.2-r1               apk                           
+openssl                            3.3.3-r0               apk                           
 parse-data-uri                     0.2.0                  npm                           
 pcre                               8.45-r3                apk                           
 pcre2                              10.43-r0               apk                           
