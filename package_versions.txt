@@ -157,7 +157,7 @@ libcrypto3                         3.3.3-r0               apk
 libcurl                            8.12.1-r0              apk                           
 libdav1d                           1.4.2-r0               apk                           
 libedit                            20240517.3.1-r0        apk                           
-libexpat                           2.6.4-r0               apk                           
+libexpat                           2.7.0-r0               apk                           
 libgcc                             13.2.1_git20240309-r1  apk                           
 libice                             1.1.1-r6               apk                           
 libidn2                            2.3.7-r0               apk                           
@@ -206,7 +206,7 @@ ndarray-pack                       1.2.1                  npm
 nesbot/carbon                      3.8.6                  php-composer                  
 netcat-openbsd                     1.226-r0               apk                           
 nghttp2-libs                       1.62.1-r0              apk                           
-nginx                              1.26.2-r0              apk                           
+nginx                              1.26.3-r0              apk                           
 nikic/fast-route                   v1.3.0                 php-composer                  
 node-bitmap                        0.0.1                  npm                           
 nosleep.js                         0.12.0                 npm                           
