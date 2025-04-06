@@ -42,7 +42,7 @@ chartjs-plugin-trendline           2.1.6                  npm
 color-convert                      1.9.3                  npm                           
 color-name                         1.1.3                  npm                           
 color-name                         1.1.4                  npm                           
-composer                           2.8.6                  binary                        
+composer                           2.8.7                  binary                        
 coreutils                          9.5-r2                 apk                           
 coreutils-env                      9.5-r2                 apk                           
 coreutils-fmt                      9.5-r2                 apk                           
@@ -218,7 +218,7 @@ symfony/translation-contracts      v3.5.1                 php-composer
 tempusdominus-bootstrap-4          5.39.2                 npm                           
 toastr                             2.1.4                  npm                           
 ts-custom-error                    3.3.1                  npm                           
-tzdata                             2025a-r0               apk                           
+tzdata                             2025b-r0               apk                           
 utmps-libs                         0.1.2.2-r1             apk                           
 voku/portable-ascii                2.0.3                  php-composer                  
 webman/blade                       v1.5.6                 php-composer                  
