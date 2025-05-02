@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.20
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.21
 
 # set version label
 ARG BUILD_DATE
@@ -19,6 +19,7 @@ RUN \
     php83-gd \
     php83-intl \
     php83-ldap \
+    php83-opcache \
     php83-pdo \
     php83-pdo_sqlite \
     php83-tokenizer && \
