@@ -284,6 +284,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.05.24:** - Rebase to Alpine 3.21. Add php-opcache package.
 * **30.06.24:** - Rebase to Alpine 3.20. Existing users should update their nginx confs to avoid http2 deprecation warnings.
 * **29.03.24:** - Add `clear_env = no` to `php-fpm` to pass on environment variables to workers threads
 * **06.03.24:** - Existing users should update: site-confs/default.conf - Cleanup default site conf.
