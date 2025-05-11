@@ -203,7 +203,7 @@ slim/http                          1.4.0             php-composer
 slim/psr7                          1.7.0             php-composer                  
 slim/slim                          4.14.0            php-composer                  
 sprintf-js                         1.1.3             npm                           
-sqlite-libs                        3.48.0-r1         apk                           
+sqlite-libs                        3.48.0-r2         apk                           
 ssl_client                         1.37.0-r12        apk                           
 summernote                         0.9.1             npm                           
 swagger-ui-dist                    5.20.2            npm                           
