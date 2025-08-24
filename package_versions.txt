@@ -43,7 +43,7 @@ chartjs-plugin-trendline           2.1.6             npm
 color-convert                      1.9.3             npm                           
 color-name                         1.1.3             npm                           
 color-name                         1.1.4             npm                           
-composer                           2.8.10            binary                        
+composer                           2.8.11            binary                        
 coreutils                          9.5-r2            apk                           
 coreutils-env                      9.5-r2            apk                           
 coreutils-fmt                      9.5-r2            apk                           
