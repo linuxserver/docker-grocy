@@ -10,7 +10,7 @@ acl-libs                           2.3.2-r1          apk
 alpine-baselayout                  3.6.8-r1          apk                           
 alpine-baselayout-data             3.6.8-r1          apk                           
 alpine-keys                        2.5-r0            apk                           
-alpine-release                     3.21.4-r0         apk                           
+alpine-release                     3.21.5-r0         apk                           
 animate.css                        3.7.2             npm                           
 aom-libs                           3.11.0-r0         apk                           
 apache2-utils                      2.4.65-r0         apk                           
