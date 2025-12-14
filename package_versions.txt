@@ -13,7 +13,7 @@ alpine-keys                        2.5-r0            apk
 alpine-release                     3.21.5-r0         apk                           
 animate.css                        3.7.2             npm                           
 aom-libs                           3.11.0-r0         apk                           
-apache2-utils                      2.4.65-r0         apk                           
+apache2-utils                      2.4.66-r0         apk                           
 apk-tools                          2.14.6-r3         apk                           
 apr                                1.7.5-r0          apk                           
 apr-util                           1.6.3-r1          apk                           
@@ -115,7 +115,7 @@ libjpeg-turbo                      3.0.4-r0          apk
 libldap                            2.6.8-r0          apk                           
 libmd                              1.1.0-r0          apk                           
 libncursesw                        6.5_p20241006-r3  apk                           
-libpng                             1.6.47-r0         apk                           
+libpng                             1.6.53-r0         apk                           
 libproc2                           4.0.4-r2          apk                           
 libpsl                             0.21.5-r3         apk                           
 libsasl                            2.1.28-r8         apk                           
