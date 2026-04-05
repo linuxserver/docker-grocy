@@ -7,8 +7,8 @@ NAME                               VERSION               TYPE
 @types/sizzle                      2.3.10                npm                            
 @zxing/library                     0.21.3                npm                            
 acl-libs                           2.3.2-r1              apk                            
-alpine-baselayout                  3.7.1-r8              apk                            
-alpine-baselayout-data             3.7.1-r8              apk                            
+alpine-baselayout                  3.7.2-r0              apk                            
+alpine-baselayout-data             3.7.2-r0              apk                            
 alpine-keys                        2.6-r0                apk                            
 alpine-release                     3.23.3-r0             apk                            
 animate.css                        3.7.2                 npm                            
