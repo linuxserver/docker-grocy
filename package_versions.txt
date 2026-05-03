@@ -10,11 +10,11 @@ acl-libs                           2.3.2-r1              apk
 alpine-baselayout                  3.7.2-r0              apk                            
 alpine-baselayout-data             3.7.2-r0              apk                            
 alpine-keys                        2.6-r0                apk                            
-alpine-release                     3.23.3-r0             apk                            
+alpine-release                     3.23.4-r0             apk                            
 animate.css                        3.7.2                 npm                            
 aom-libs                           3.13.1-r1             apk                            
 apache2-utils                      2.4.66-r0             apk                            
-apk-tools                          3.0.5-r0              apk                            
+apk-tools                          3.0.6-r0              apk                            
 apr                                1.7.6-r0              apk                            
 apr-util                           1.6.3-r2              apk                            
 argon2-libs                        20190702-r5           apk                            
@@ -28,8 +28,8 @@ busybox                            1.37.0-r30            apk
 busybox-binsh                      1.37.0-r30            apk                            
 bwip-js                            4.8.0                 npm                            
 c-ares                             1.34.6-r0             apk                            
-ca-certificates                    20251003-r0           apk                            
-ca-certificates-bundle             20251003-r0           apk                            
+ca-certificates                    20260413-r0           apk                            
+ca-certificates-bundle             20260413-r0           apk                            
 carbonphp/carbon-doctrine-types    3.2.0                 php-composer                   
 catatonit                          0.2.1-r0              apk                            
 chart.js                           2.9.4                 npm                            
@@ -100,7 +100,7 @@ jquery                             3.7.1                 npm
 jquery                             4.0.0                 npm           (+9 duplicates)  
 jquery-serializejson               2.9.0                 npm                            
 laravel/serializable-closure       v2.0.10               php-composer                   
-libapk                             3.0.5-r0              apk                            
+libapk                             3.0.6-r0              apk                            
 libattr                            2.5.2-r2              apk                            
 libavif                            1.3.0-r0              apk                            
 libbsd                             0.12.2-r0             apk                            
@@ -226,6 +226,6 @@ tzdata                             2026a-r0              apk
 utmps-libs                         0.1.3.1-r0            apk                            
 voku/portable-ascii                2.0.3                 php-composer                   
 webman/blade                       v1.5.7                php-composer                   
-xz-libs                            5.8.2-r0              apk                            
+xz-libs                            5.8.3-r0              apk                            
 zlib                               1.3.2-r0              apk                            
 zstd-libs                          1.5.7-r2              apk                            
