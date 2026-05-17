@@ -42,7 +42,7 @@ chartjs-plugin-trendline           2.1.9                 npm
 color-convert                      1.9.3                 npm                            
 color-name                         1.1.3                 npm                            
 color-name                         1.1.4                 npm                            
-composer                           2.9.7                 binary                         
+composer                           2.9.8                 binary                         
 coreutils                          9.8-r1                apk                            
 coreutils-env                      9.8-r1                apk                            
 coreutils-fmt                      9.8-r1                apk                            
@@ -115,7 +115,7 @@ libice                             1.1.2-r0              apk
 libidn2                            2.3.8-r0              apk                            
 libintl                            0.24.1-r1             apk                            
 libjpeg-turbo                      3.1.2-r0              apk                            
-libldap                            2.6.10-r0             apk                            
+libldap                            2.6.13-r0             apk                            
 libmd                              1.1.0-r0              apk                            
 libncursesw                        6.5_p20251123-r0      apk                            
 libpng                             1.6.57-r0             apk                            
@@ -154,7 +154,7 @@ nesbot/carbon                      3.11.1                php-composer
 netcat-openbsd                     1.234.1-r0            apk                            
 nghttp2-libs                       1.69.0-r0             apk                            
 nghttp3                            1.13.1-r0             apk                            
-nginx                              1.28.3-r0             apk                            
+nginx                              1.28.3-r1             apk                            
 nikic/fast-route                   v1.3.0                php-composer                   
 nosleep.js                         0.12.0                npm                            
 oniguruma                          6.9.10-r0             apk                            
