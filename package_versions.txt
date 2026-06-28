@@ -10,7 +10,7 @@ acl-libs                           2.3.2-r1              apk
 alpine-baselayout                  3.7.2-r0              apk                            
 alpine-baselayout-data             3.7.2-r0              apk                            
 alpine-keys                        2.6-r0                apk                            
-alpine-release                     3.23.4-r0             apk                            
+alpine-release                     3.23.5-r0             apk                            
 animate.css                        3.7.2                 npm                            
 aom-libs                           3.14.1-r0             apk                            
 apache2-utils                      2.4.67-r0             apk                            
@@ -28,8 +28,8 @@ busybox                            1.37.0-r30            apk
 busybox-binsh                      1.37.0-r30            apk                            
 bwip-js                            4.8.0                 npm                            
 c-ares                             1.34.6-r0             apk                            
-ca-certificates                    20260413-r0           apk                            
-ca-certificates-bundle             20260413-r0           apk                            
+ca-certificates                    20260611-r0           apk                            
+ca-certificates-bundle             20260611-r0           apk                            
 carbonphp/carbon-doctrine-types    3.2.0                 php-composer                   
 catatonit                          0.2.1-r0              apk                            
 chart.js                           2.9.4                 npm                            
@@ -109,7 +109,7 @@ libcrypto3                         3.5.7-r0              apk
 libcurl                            8.19.0-r0             apk                            
 libdav1d                           1.5.2-r0              apk                            
 libedit                            20251016.3.1-r0       apk                            
-libexpat                           2.7.5-r0              apk                            
+libexpat                           2.8.1-r0              apk                            
 libgcc                             15.2.0-r2             apk                            
 libice                             1.1.2-r0              apk                            
 libidn2                            2.3.8-r0              apk                            
@@ -153,7 +153,7 @@ ncurses-terminfo-base              6.5_p20251123-r0      apk
 nesbot/carbon                      3.11.1                php-composer                   
 netcat-openbsd                     1.234.1-r0            apk                            
 nghttp2-libs                       1.69.0-r0             apk                            
-nginx                              1.28.3-r3             apk                            
+nginx                              1.28.3-r4             apk                            
 nikic/fast-route                   v1.3.0                php-composer                   
 nosleep.js                         0.12.0                npm                            
 oniguruma                          6.9.10-r0             apk                            
