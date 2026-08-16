@@ -29,7 +29,7 @@ RUN \
   mkdir -p /app/www && \
   if [ -z ${GROCY_RELEASE+x} ]; then \
     GROCY_RELEASE=$(curl -sX GET "https://api.github.com/repos/grocy/grocy/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/grocy.tar.gz -L \
