@@ -115,7 +115,7 @@ libjpeg-turbo                      3.1.2-r0              apk
 libldap                            2.6.13-r0             apk                            
 libmd                              1.1.0-r0              apk                            
 libncursesw                        6.5_p20251123-r0      apk                            
-libpng                             1.6.58-r1             apk                            
+libpng                             1.6.59-r0             apk                            
 libproc2                           4.0.5-r0              apk                            
 libpsl                             0.21.5-r3             apk                            
 libsasl                            2.1.28-r9             apk                            
